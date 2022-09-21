@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Form</title>
+    
+</head>
+
+<body> 
+
+    <header style="background-color: rgb(206, 199, 252); color: ghostwhite;">
+        <center>
+                <h1> <b> Estelle LINA </b></h1>
+                <h2> <b> Project Manager </b></h2>
+                <img src="Pictures/logo.png">
+        <br>
+        <br>
+            <nav> 
+             <ul style="display: inline;">
+                 <li style="display: inline;"><a href="Index.html" style="color:ghostwhite;"> Home Page </a></li>
+                 <li style="display: inline;"><a href="Projects.html" style="color: ghostwhite;"> Projects WebPage </a></li>
+                 <li style="display: inline;"><a href="My project.html" style="color: ghostwhite;"> My Project </a></li>
+                 <li style="display: inline;"><a href="About Us.html" style="color: ghostwhite;"> About Us </a></li>
+                 <li style="display: inline;"><a href="Project Form.html" style="color: ghostwhite;"> Project Form </a></li>
+                 <li style="display: inline;"><a href="SignUp.html" style="color: ghostwhite;"> Sign Up </a></li>
+                 <li style="display: inline;"><a href="Feedbackform.html" style="color: ghostwhite;"> Feedbacks Form </a></li>
+             </ul>
+        </nav>
+                <br>
+            </center>
+    </header>
+
+    <h1> <i> Project Form </i> </h1>
+    <p> This page permit to fill a form.</p>
+
+    <form>
+        <fieldset id="project_informations">
+            <legend style="background-color: mediumpurple; color:ghostwhite;"> Project Informations </legend>
+            <ol>
+                <li>
+                    <label for="name"> Name : </label>
+                    <input type="text" name="name">
+                            
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="priority"> Priority : </label>
+                    <input type="range" min="0" max="10"
+                            name="priority" value="0">
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="estimated_hours"> Estimated Hours : </label>
+                    <input type="number" name="estimated_hours"
+                            min="0" max="1000">
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="start_date"> Start Date : </label>
+                    <input type="date" name="start_date" id="start_date"
+                            value="2010-12-01">
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="email"> Email contact : </label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <br>
+                <br>
+                <li>
+                    <label for="url"> Staging URL : </label>
+                    <input type="url" name="url" id="url">
+                </li>
+                
+            </ol>
+        </fieldset>
+<br>
+        <fieldset id="project_informations">
+            <legend style="background-color: mediumpurple; color:ghostwhite;"> Project Informations </legend>
+                <ol>
+                    <li>
+                        <label for="city"> City : </label>
+                        <input type="text" name=City id="City">
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <label for="post_code"> Post Code : </label>
+                        <input type="text" name=post_code id="post_code">
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <label for="building_number"> Building Number : </label>
+                        <input type="text" name=building_number id="building_number">
+                    </li>
+                   
+
+                </ol>
+                </fieldset>
+<br>
+                <fieldset id="company_informations">
+                    <legend style="background-color: mediumpurple; color:ghostwhite;"> Company Informations </legend>
+                        <ol>
+                            <li>
+                                <label for="number_of_employees"> Number of Employees : </label>
+                                <input type="number" name=number_of_employees id="number_of_employees"
+                                       min="0" max="10">
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                <label for="budget"> Budget : </label>
+                                <input type="number" name=budget id="budget">
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                <label for="department_number"> Department Number : </label>
+                                <input type="number" name="department_number" id="department_number"
+                                        min="0" max="10">
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                <label for="company_location"> Company Location : </label>
+                                <input type="text" name=company_location id="company_location">
+                            </li>
+                          
+                        </ol>
+                        </fieldset>
+                <br>
+                <br>
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+
+    </form>
+    <br>
+    <br>
+    <center>
+        <footer style="background-color:lightgrey;">
+    
+            <br>
+        <p style="color:ghostwhite;"> Copyright 2022. </p>
+            <br>
+        </footer>
+        </center> 
+    
+    
+    </body>
+    
+    </html>
